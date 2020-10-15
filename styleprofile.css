@@ -1,0 +1,66 @@
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: fit-content;
+}
+
+.myprofile h1{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.profile{
+    width: 400px;
+    height: 470px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 30px auto;
+}
+
+.profile img{
+    width: 120px;
+    height: 160px;
+    margin-left: 140px;
+    margin-top: 21px;
+}
+
+.profile h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.profile p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.profile .icon .facebook:hover{
+    color: darkblue;
+}
+
+.profile .icon .twitter:hover{
+    color: lightblue;
+}
+
+.profile .icon .instagram:hover{
+    color: purple;
+}
+
+.profile .icon .google:hover{
+    color: red;
+}
+
+.icon{
+    margin-left: 140px;
+    margin-top: 10px; 
+}
+
+.profile .icon i{
+    padding: 5px;
+    background: white;
+    transition: 1s;
+}
+
